@@ -1,0 +1,60 @@
+
+#hero{
+    background-image: url("photo-1532043772213-09a6cec77cfa.jpeg");
+    background-size: cover;
+    background-position: fixed;
+    color:white;
+    height: 100vh;
+}
+.nothing{
+    width: 100%;
+    height: 35vh;
+}
+#workshops{
+    overflow: hidden;
+
+}
+.main h1{
+    font-family: 'Bungee', cursive;
+
+}
+.work{
+    height: auto;
+    color:white;
+    background: url("work.jpg");
+background-size: cover;
+    text-align: center;
+
+   
+   
+}
+.committee{
+padding:10%;
+margin-bottom: auto;
+}
+.content{
+    background-color: darkgray;
+  
+
+}
+
+.padding{
+    padding-top:10% 0;
+}
+
+@media (max-width:1199px)
+{
+    /* .promotion{
+        padding-bottom: 25px;
+    } */
+    .marginsmall
+    {
+        margin-top:0 !important;
+    }
+}
+@media (max-width:767px)
+{
+    .promotion{
+        padding-bottom: 0px !important;
+    }
+}
